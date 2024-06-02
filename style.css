@@ -1,0 +1,335 @@
+body {
+    background-color: white;
+}
+
+.receipt-box {
+    background-color: white;
+    display: block;
+    width: 730px;
+    height: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.main {
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.margin {
+    width: 730px;
+    height: 20px;
+    background-color: rgb(129, 24, 129);
+}
+
+.margin1 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main1 {
+    margin-top: 55px;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    margin-left: 610px;
+    margin-top: -65px;
+    display: block;
+
+}
+
+.margin2 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.margin3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -25px;
+
+}
+
+.margin4 {
+    margin-left: 430px;
+    margin-top: -150px;
+    display: block;
+
+
+}
+
+.margin5 {
+    font-weight: normal;
+
+}
+
+.main2 {
+    border-color: rgb(192, 46, 192);
+}
+
+.main3 {
+    margin-top: 105px;
+
+}
+
+.main4 {
+    font-weight: normal;
+}
+
+.main5 {
+    margin-left: 430px;
+    margin-top: -82px;
+}
+
+.main6 {
+    font-weight: normal;
+}
+
+
+
+
+
+.chart1 {
+    display: block;
+    height: 20px;
+    width: 719px;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main7 {
+    display: inline;
+    justify-content: flex-end;
+    margin-left: 400px;
+}
+
+.main8 {
+    border-color: black;
+    margin-top: -4px;
+}
+
+.chart2 {
+    background-color: rgb(129, 24, 129);
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chart3 {
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main9 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.main0 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.receipt-footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
+    font-size: 14px;
+}
+
+.margin6 {
+    margin-left: 632px;
+    margin-top: -1px;
+}
+
+.date {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.margin7 {
+    margin-left: 632px;
+    margin-top: -200px;
+    transform: rotate(-10deg);
+}
+
+.margin8 {
+    width: 730px;
+    height: 20px;
+    background-color: rgb(129, 24, 129);
+    margin-top: 35px;
+
+}
+
+/* small divices */
+@media screen and (min-width: 150px) and (max-width: 600px) {
+    .receipt-box {
+        width: 500px;
+        height: 700px;
+
+    }
+    .margin{
+        width: 500px;
+    }
+    .margin8{
+        width: 500px;
+    }
+    .main{
+        font-size: 17px;
+        margin-left: 60px;
+    }
+    .logo{
+        margin-left: 390px;
+    }
+    .main1{
+        font-size: 17px;
+    }
+    .margin1{
+        font-size: 15px;
+    }
+    .margin4{
+        margin-left: 300px;
+        font-size: 14px;
+    }
+    .margin2{
+        font-size: 14px;
+    }
+    .margin3{
+        font-size: 14px;
+        margin-top: -15px;
+    }
+    .main3{
+      font-size: 14px;
+    }
+    
+    .main5{
+       font-size: 14px;
+       margin-left: 300px;
+       margin-top: -70px;
+       
+    }
+    .chart1{
+      width: 489px;
+      font-size: 15px;
+    }
+    .main7{
+        margin-left: 185px;
+        font-size: 15px;
+    }
+    .chart2{
+        font-size: 15px;
+    }
+    .main9{
+        font-size: 14px;
+    }
+    .main0{
+        font-size: 15px;
+    }
+    .margin7{
+        margin-left: 400px;
+        height: 60px;
+        margin-top: -200px;
+
+    }
+    .receipt-footer{
+        font-size: 13.5px;
+    }
+    .margin6{
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+}
+
+/* normal devices */
+@media screen and(min-width: 601px) and (max-width:768px) {
+    .receipt-box {
+        width: 510px;
+        height: 700px;
+
+    }
+    .margin{
+        width: 300px;
+    }
+    .margin8{
+        width: 300px;
+    }
+    .main{
+        font-size: 17px;
+        margin-left: 60px;
+    }
+    .logo{
+        margin-left: 390px;
+    }
+    .main1{
+        font-size: 17px;
+    }
+    .margin1{
+        font-size: 15px;
+    }
+    .margin4{
+        margin-left: 300px;
+        font-size: 14px;
+    }
+    .margin2{
+        font-size: 14px;
+    }
+    .margin3{
+        font-size: 14px;
+        margin-top: -15px;
+    }
+    .main3{
+      font-size: 14px;
+    }
+    
+    .main5{
+       font-size: 14px;
+       margin-left: 300px;
+       margin-top: -70px;
+       
+    }
+    .chart1{
+      width: 489px;
+      font-size: 15px;
+    }
+    .main7{
+        margin-left: 185px;
+        font-size: 15px;
+    }
+    .chart2{
+        font-size: 15px;
+    }
+    .main9{
+        font-size: 14px;
+    }
+    .main0{
+        font-size: 15px;
+    }
+    .margin7{
+        margin-left: 400px;
+        height: 60px;
+        margin-top: -200px;
+
+    }
+    .receipt-footer{
+        font-size: 13.5px;
+    }
+    .margin6{
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+
+}
+
+/* tablets devices */
+@media screen and (min-width: 769px) and (max-width:992px) {}
+
+/* large devices */
+@media screen and (min-width: 993px) and (max-width:1200px) {}
